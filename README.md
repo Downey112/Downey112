@@ -39,8 +39,7 @@ full analysis is in [fresh-grad-salary-model](https://github.com/Downey112/fresh
 | What does the Budget actually say? | Answers drawn from the official Budget 2026 documents, with page-level citations. [belanjawan-bot](https://github.com/Downey112/belanjawan-bot) | Python, RAG |
 
 Also here: [perasaan-malaysia](https://github.com/Downey112/perasaan-malaysia), a scheduled
-pipeline for MetMalaysia's 7-day forecasts, and [wealthwatch](https://github.com/Downey112/wealthwatch),
-a personal finance tracker that is [live](https://wealthwatch-six.vercel.app).
+pipeline for MetMalaysia's 7-day forecasts; [malaysia-inclusive-economy-blueprint](https://github.com/Downey112/malaysia-inclusive-economy-blueprint) · [live](https://Downey112.github.io/malaysia-inclusive-economy-blueprint/), an interactive fiscal policy simulator; [esg-multiagent-auditor](https://github.com/Downey112/esg-multiagent-auditor), an event-driven Scope 1-3 GHG auditing architecture; and [wealthwatch](https://github.com/Downey112/wealthwatch), a personal finance tracker that is [live](https://wealthwatch-six.vercel.app).
 
 ## What I work in
 
