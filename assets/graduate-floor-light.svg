@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 464" width="880" height="464" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t">Share of 2024 first-degree graduates earning RM2,500 a month or less, by field of study</title>
+<desc id="d">Education 77.2 per cent; Arts and humanities 75 per cent; Agriculture, forestry, fisheries and veterinary 73.3 per cent; Services 59.9 per cent; Natural sciences, mathematics and statistics 58.1 per cent; Social sciences, journalism and information 52.5 per cent; Business, administration and law 47.5 per cent; Engineering, manufacturing and construction 39.6 per cent; Health and welfare 39.4 per cent; Information and communication technologies 27.7 per cent. All first-degree graduates: 49.7 per cent.</desc>
+<rect x="0.5" y="0.5" width="879" height="463" rx="10" fill="#ffffff" stroke="#d1d9e0"/>
+<text x="24" y="30" font-size="17" font-weight="700" fill="#1f2328">Who a RM2,500 graduate wage floor reaches</text>
+<text x="24" y="52" font-size="13.5" fill="#59636e">Share of 2024 first-degree graduates earning RM2,500 a month or less, by field of study</text>
+<line x1="350.0" y1="78" x2="350.0" y2="386" stroke="#b7bfc8" stroke-width="1"/>
+<text x="350.0" y="404" text-anchor="middle" font-size="12" fill="#818b98">0%</text>
+<line x1="462.5" y1="78" x2="462.5" y2="386" stroke="#d9dee3" stroke-width="1"/>
+<text x="462.5" y="404" text-anchor="middle" font-size="12" fill="#818b98">25%</text>
+<line x1="575.0" y1="78" x2="575.0" y2="386" stroke="#d9dee3" stroke-width="1"/>
+<text x="575.0" y="404" text-anchor="middle" font-size="12" fill="#818b98">50%</text>
+<line x1="687.5" y1="78" x2="687.5" y2="386" stroke="#d9dee3" stroke-width="1"/>
+<text x="687.5" y="404" text-anchor="middle" font-size="12" fill="#818b98">75%</text>
+<line x1="800.0" y1="78" x2="800.0" y2="386" stroke="#d9dee3" stroke-width="1"/>
+<text x="800.0" y="404" text-anchor="middle" font-size="12" fill="#818b98">100%</text>
+<line x1="573.7" y1="78" x2="573.7" y2="386" stroke="#1f2328" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="579.7" y="74" font-size="12.5" font-weight="600" fill="#1f2328">All first-degree graduates: 49.7%</text>
+<text x="338" y="97.5" text-anchor="end" font-size="13" font-weight="400" fill="#59636e">Education</text>
+<path d="M350.0 86.0h343.4a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-343.4z" fill="#2a78d6"/>
+<text x="705.4" y="97.5" font-size="13" font-weight="600" fill="#1f2328" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" paint-order="stroke" xml:space="preserve">77.2%<tspan font-weight="400" fill="#59636e"></tspan></text>
+<text x="338" y="127.5" text-anchor="end" font-size="13" font-weight="400" fill="#59636e">Arts and humanities</text>
+<path d="M350.0 116.0h333.5a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-333.5z" fill="#2a78d6"/>
+<text x="695.5" y="127.5" font-size="13" font-weight="600" fill="#1f2328" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" paint-order="stroke" xml:space="preserve">75.0%<tspan font-weight="400" fill="#59636e"></tspan></text>
+<text x="338" y="157.5" text-anchor="end" font-size="13" font-weight="400" fill="#59636e">Agriculture, forestry, fisheries and veterinary</text>
+<path d="M350.0 146.0h325.8a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-325.8z" fill="#2a78d6"/>
+<text x="687.8" y="157.5" font-size="13" font-weight="600" fill="#1f2328" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" paint-order="stroke" xml:space="preserve">73.3%<tspan font-weight="400" fill="#59636e"></tspan></text>
+<text x="338" y="187.5" text-anchor="end" font-size="13" font-weight="400" fill="#59636e">Services</text>
+<path d="M350.0 176.0h265.5a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-265.5z" fill="#2a78d6"/>
+<text x="627.5" y="187.5" font-size="13" font-weight="600" fill="#1f2328" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" paint-order="stroke" xml:space="preserve">59.9%<tspan font-weight="400" fill="#59636e"></tspan></text>
+<text x="338" y="217.5" text-anchor="end" font-size="13" font-weight="600" fill="#1f2328">Natural sciences, mathematics and statistics</text>
+<path d="M350.0 206.0h257.5a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-257.5z" fill="#eb6834"/>
+<text x="619.5" y="217.5" font-size="13" font-weight="600" fill="#1f2328" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" paint-order="stroke" xml:space="preserve">58.1%<tspan font-weight="400" fill="#59636e">  ← my degree</tspan></text>
+<text x="338" y="247.5" text-anchor="end" font-size="13" font-weight="400" fill="#59636e">Social sciences, journalism and information</text>
+<path d="M350.0 236.0h232.2a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-232.2z" fill="#2a78d6"/>
+<text x="594.2" y="247.5" font-size="13" font-weight="600" fill="#1f2328" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" paint-order="stroke" xml:space="preserve">52.5%<tspan font-weight="400" fill="#59636e"></tspan></text>
+<text x="338" y="277.5" text-anchor="end" font-size="13" font-weight="400" fill="#59636e">Business, administration and law</text>
+<path d="M350.0 266.0h209.8a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-209.8z" fill="#2a78d6"/>
+<text x="571.8" y="277.5" font-size="13" font-weight="600" fill="#1f2328" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" paint-order="stroke" xml:space="preserve">47.5%<tspan font-weight="400" fill="#59636e"></tspan></text>
+<text x="338" y="307.5" text-anchor="end" font-size="13" font-weight="400" fill="#59636e">Engineering, manufacturing and construction</text>
+<path d="M350.0 296.0h174.2a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-174.2z" fill="#2a78d6"/>
+<text x="536.2" y="307.5" font-size="13" font-weight="600" fill="#1f2328" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" paint-order="stroke" xml:space="preserve">39.6%<tspan font-weight="400" fill="#59636e"></tspan></text>
+<text x="338" y="337.5" text-anchor="end" font-size="13" font-weight="400" fill="#59636e">Health and welfare</text>
+<path d="M350.0 326.0h173.3a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-173.3z" fill="#2a78d6"/>
+<text x="535.3" y="337.5" font-size="13" font-weight="600" fill="#1f2328" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" paint-order="stroke" xml:space="preserve">39.4%<tspan font-weight="400" fill="#59636e"></tspan></text>
+<text x="338" y="367.5" text-anchor="end" font-size="13" font-weight="400" fill="#59636e">Information and communication technologies</text>
+<path d="M350.0 356.0h120.6a4 4 0 0 1 4 4v6.0a4 4 0 0 1 -4 4h-120.6z" fill="#2a78d6"/>
+<text x="482.6" y="367.5" font-size="13" font-weight="600" fill="#1f2328" stroke="#ffffff" stroke-width="5" stroke-linejoin="round" paint-order="stroke" xml:space="preserve">27.7%<tspan font-weight="400" fill="#59636e"></tspan></text>
+<text x="24" y="432" font-size="11.5" fill="#818b98">Source: Kementerian Pendidikan Tinggi, Laporan Kajian Pengesanan Graduan 2024, Jadual 4o. Fields with 1,000 or more respondents.</text>
+<text x="24" y="448" font-size="11.5" fill="#818b98">Each field’s published income bands are rescaled to sum to 100% before adding the bands up to RM2,500.</text>
+</svg>
