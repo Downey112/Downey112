@@ -53,6 +53,8 @@ pipeline for MetMalaysia's 7-day forecasts; [malaysia-inclusive-economy-blueprin
 **Reporting** Power BI (DAX, star schemas), Excel, Tableau, Looker Studio, Streamlit<br>
 **Methods** multiple linear regression, hypothesis testing, regression diagnostics, anomaly detection
 
+<img src="assets/metrics.svg" width="480" alt="Languages used across my repositories, mostly Python, and a 3D calendar of my GitHub contributions over the last six months, refreshed daily.">
+
 ```
                         Model summary: luqman
 ======================================================================
@@ -61,8 +63,9 @@ Method:          least squares
 Sample:          Oct 2023 - Feb 2027, B.Sc. (Hons.) Statistics, UiTM
 ----------------------------------------------------------------------
 Notes:
-[1] Every number on this page comes from a repository linked above.
+[1] Every number comes from a linked repository or from GitHub.
 [2] Simulated data is labelled as simulated.
-[3] The header and chart are drawn by scripts/build_assets.py.
+[3] The header and chart are drawn by scripts/build_assets.py;
+    the activity image is refreshed daily by lowlighter/metrics.
 ======================================================================
 ```
