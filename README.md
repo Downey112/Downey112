@@ -11,7 +11,7 @@ I'm a final-year Statistics student at UiTM, and most of what's here is built on
 open data: OpenDOSM, the Ministry of Higher Education, MetMalaysia and the Budget documents.
 
 **Looking for a Data Analyst internship in Kuala Lumpur, available now until January 2027.**
-&nbsp;[LinkedIn](https://linkedin.com/in/luqmansyahrulnizam) · [Portfolio](https://the-residual-lilac.vercel.app)
+&nbsp;[LinkedIn](https://linkedin.com/in/luqmansyahrulnizam) · [Portfolio](https://downey112.github.io)
 
 ## One finding, drawn
 
@@ -31,12 +31,17 @@ full analysis is in [fresh-grad-salary-model](https://github.com/Downey112/fresh
 | The question | What the data said | Built with |
 |---|---|---|
 | How many graduates does a RM2,500 wage floor reach, and what does it cost? | 49.7% earned RM2,500 or less in 2024. In simulation the graduate wage bill rises 7.1% to 14.4%, depending on who is covered. [fresh-grad-salary-model](https://github.com/Downey112/fresh-grad-salary-model) | Python, statsmodels, Excel |
+| Which fields of study leave graduates most exposed? | No field is near failing (every field had 88%+ of its labour-force graduates in work in 2025); the fields differ far more in job quality. Services, Agriculture, Education and Arts sit at the risky end. [program-risk-my](https://github.com/Downey112/program-risk-my) · [live](https://programriskmy.streamlit.app/) | Python, Streamlit |
 | What does a graduate hire cost an employer at the new wage benchmarks? | Employer cost and take-home pay at RM2,000, RM2,500 and RM3,400 a month, in a formula-driven workbook. [belanjawan-2027-wage-cost-model](https://github.com/Downey112/belanjawan-2027-wage-cost-model) | Excel, Python |
 | Which months of Malaysian trade don't fit the pattern? | 320 months of OpenDOSM trade data, with 8 export anomaly months and 25 sector spikes flagged. [dosm_trade_engine](https://github.com/Downey112/dosm_trade_engine) | Python, pandas, Power BI |
 | How much do grocery prices really differ by store format? | A 16-staple basket is 14% cheaper in hypermarkets (RM110.96) than wet markets (RM126.58), but within-format shop dispersion dominates. 20M+ PriceCatcher rows modeled with two-way fixed effects. [pricecatcher-retail-pricing](https://github.com/Downey112/pricecatcher-retail-pricing) | DuckDB, Python, Power BI |
+| Can store sales be forecast as they stream in? | Real M5 Walmart demand, replayed through Kafka and Spark as a live stream; the stock, costs and transaction lines are **simulated**. Next-day WAPE was 0.725 on the replay, close to the 0.710 backtest of the champion random forest (seasonal naive: 0.868). [retail-demand-rt](https://github.com/Downey112/retail-demand-rt) · [dashboard](https://downey112.github.io/retail-demand-rt/dashboard/) | Kafka, PySpark, Power BI |
+| Which online shoppers are about to leave, and what do they buy together? | Real UCI Online Retail II data: on 4,350 active customers in the held-out month, a logistic model ranks 30-day churn with AUC 0.755 vs 0.684 for recency alone (its probabilities need recalibrating for the holiday season). Apriori finds 249 bundle rules, cross-checked in SQL. [ecom-churn-basket](https://github.com/Downey112/ecom-churn-basket) | PostgreSQL, Python |
+| Do marketing-mix methods recover the truth? | A **simulation study** with known true parameters: promo lifts and the profit-optimal budget are recovered well across 100 Monte Carlo runs, while the response curve's ceiling is weakly identified. [Multi-Channel ROI](https://github.com/Downey112/Multi-Channel-Retail-Demand-Forecasting-Marketing-ROI-Optimizer) | PostgreSQL, statsmodels |
 | How far is the market fuel price from the subsidised one this week? | A live tracker of the gap for RON95 and diesel, refreshed twice a week. [budi-pulse](https://github.com/Downey112/budi-pulse) · [live](https://budi-pulse.streamlit.app) | Python, PostgreSQL, Streamlit |
 | Who leaves a telco, and when? | 26.54% churn across 7,043 customers; month-to-month contracts are 88.55% of those who left. [DSC651-TelcoChurn-PowerBI](https://github.com/Downey112/DSC651-TelcoChurn-PowerBI) | Power BI |
 | Can a model catch fraud that is 0.17% of transactions? | A detection pipeline for a heavily imbalanced dataset. [audit-fraud-detection](https://github.com/Downey112/audit-fraud-detection) | Python, SQL |
+| How honest is a published paper's "90% range"? | Re-examining arXiv:2610.13588 on EV charging: an honest method would pass only ~53% of the paper's scorecard, so its recommended method wins by being wider. Three code discrepancies were reported to the authors. [ev-conformal](https://github.com/Downey112/ev-conformal) | Python, conformal prediction |
 | What does the Budget actually say? | Answers drawn from the official Budget 2026 documents, with page-level citations. [belanjawan-bot](https://github.com/Downey112/belanjawan-bot) | Python, RAG |
 
 Also here: [perasaan-malaysia](https://github.com/Downey112/perasaan-malaysia), a scheduled
