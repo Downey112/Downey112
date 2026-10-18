@@ -15,7 +15,12 @@ jobs:
           base: ""
           config_timezone: Asia/Kuala_Lumpur
           plugin_languages: yes
-          plugin_languages_ignored: html, css, jupyter notebook
-          plugin_languages_limit: 6
+          plugin_languages_ignored: html, css, jupyter notebook, vbscript, powershell, shell, batchfile
+          plugin_languages_limit: 4
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
