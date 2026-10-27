@@ -13,10 +13,10 @@
 
 In a regression, the **residual** is what's left after the model has said everything it can. That's the part I like: take a headline number, find the public data behind it, and see what the average leaves out.
 
-I'm a final-year **B.Sc. (Hons.) Statistics** student at UiTM. Most of what's here is built on Malaysian open data—[OpenDOSM](https://open.dosm.gov.my/), the Ministry of Higher Education, MetMalaysia, and the federal Budget documents—alongside production-style pricing, survival, and streaming pipelines.
+I'm a final-year **B.Sc. (Hons.) Statistics** student at UiTM, graduating in February 2027, and currently a Business Analyst intern at Alto Soft Sdn Bhd, where I prepare UAT and write user manuals and SOPs for a multi-module government system. Most of what's here is built on Malaysian open data—[OpenDOSM](https://open.dosm.gov.my/), the Ministry of Higher Education, MetMalaysia, and the federal Budget documents—alongside production-style pricing, survival, and streaming pipelines.
 
 > [!IMPORTANT]
-> **Looking for a Data Analyst / Data Science internship in Kuala Lumpur — available now until January 2027.**
+> **Open to full-time graduate Data Analyst / Data Science roles in Kuala Lumpur and the Klang Valley — available from March 2027.**
 >
 > Reach me on [LinkedIn](https://linkedin.com/in/luqmansyahrulnizam) or explore interactive write-ups on my [Portfolio](https://downey112.github.io).
 
@@ -107,6 +107,7 @@ The numbers behind the chart live in [data/](data/graduates_at_or_below_rm2500.c
 Dep. variable:   answers you can check
 Method:          least squares
 Sample:          Oct 2023 - Feb 2027, B.Sc. (Hons.) Statistics, UiTM
+Current:         Business Analyst intern, Alto Soft Sdn Bhd (Oct 2026 -)
 ----------------------------------------------------------------------
 Notes:
 [1] Every number comes from a linked repository or from GitHub.
