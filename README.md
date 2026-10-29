@@ -5,9 +5,14 @@
 </picture>
 
 <p align="center">
-<a href="https://linkedin.com/in/luqmansyahrulnizam"><strong>LinkedIn</strong></a> ·
-<a href="https://downey112.github.io"><strong>Portfolio</strong></a> ·
-<a href="https://github.com/Downey112"><strong>GitHub</strong></a>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=760&lines=B.Sc.+Statistics+%40+UiTM+%E2%80%94+graduating+Feb+2027;Business+Analyst+intern+%40+Alto+Soft;Malaysian+open+data+%E2%86%92+decisions;16.6M+prices.+50%2C000+brackets.+155+placebo+dates.;Every+number+links+to+its+repo." alt="Typing animation: B.Sc. Statistics at UiTM, Business Analyst intern at Alto Soft, Malaysian open data to decisions.">
+</p>
+
+<p align="center">
+<a href="https://linkedin.com/in/luqmansyahrulnizam"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+<a href="https://downey112.github.io"><img src="https://img.shields.io/badge/Portfolio-Live-36BCF7?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"></a>
+<img src="https://img.shields.io/badge/Open%20to%20work-Mar%202027-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Open to work from March 2027">
+<img src="https://komarev.com/ghpvc/?username=Downey112&style=for-the-badge&color=blueviolet&label=Profile+views" alt="Profile views">
 </p>
 </div>
 
@@ -20,7 +25,16 @@ I'm a final-year **B.Sc. (Hons.) Statistics** student at UiTM, graduating in Feb
 >
 > Reach me on [LinkedIn](https://linkedin.com/in/luqmansyahrulnizam) or explore interactive write-ups on my [Portfolio](https://downey112.github.io).
 
-## One finding, drawn
+<table>
+<tr>
+<td align="center" width="25%"><h2>49.7%</h2>of 2024 graduates already at or below the new <b>RM2,500</b> wage floor</td>
+<td align="center" width="25%"><h2>16.6M</h2>retail prices scanned for weekly profiteering leads</td>
+<td align="center" width="25%"><h2>50,000</h2>simulated MPL S18 playoff brackets</td>
+<td align="center" width="25%"><h2>155</h2>placebo dates behind every KL rail event claim</td>
+</tr>
+</table>
+
+## 📈 One finding, drawn
 
 Budget 2027 announced a **RM2,500 monthly wage floor** for graduates. Half of 2024's first-degree graduates were already at or below it (`49.7%`), but that half is not spread evenly across disciplines:
 
@@ -31,7 +45,7 @@ Budget 2027 announced a **RM2,500 monthly wage floor** for graduates. Half of 20
 
 The numbers behind the chart live in [data/](data/graduates_at_or_below_rm2500.csv), and the full microsimulation is in [**fresh-grad-salary-model**](https://github.com/Downey112/fresh-grad-salary-model).
 
-## Flagship investigations
+## 🔥 Flagship investigations
 
 1. [**fresh-grad-salary-model**](https://github.com/Downey112/fresh-grad-salary-model) **— How many graduates does a RM2,500 wage floor reach, and what does it cost?**
 
@@ -49,7 +63,7 @@ The numbers behind the chart live in [data/](data/graduates_at_or_below_rm2500.c
 
    Re-examining [arXiv:2610.13588](https://arxiv.org/abs/2610.13588) on EV charging uncertainty: an honest calibrated method would pass only **~53%** of the paper's scorecard, so its recommended method wins by being wider. Three code discrepancies were identified and reported to the authors. *(Python, conformal prediction)*
 
-## Questions I've put to the data
+## 🔍 Questions I've put to the data
 
 ### Malaysian Public Data & Policy
 
@@ -92,7 +106,11 @@ The numbers behind the chart live in [data/](data/graduates_at_or_below_rm2500.c
 > [!NOTE]
 > Every empirical claim above links to its underlying repository, data pipeline, or live dashboard. Whenever synthetic or simulated variables are used alongside real datasets (such as inventory costs in [`retail-demand-rt`](https://github.com/Downey112/retail-demand-rt) or ground-truth parameters in [`Multi-Channel ROI`](https://github.com/Downey112/Multi-Channel-Retail-Demand-Forecasting-Marketing-ROI-Optimizer)), they are explicitly labelled as **simulated**.
 
-## What I work in
+## 🛠️ What I work in
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=python,r,postgres,js,ts,html,fastapi,docker,kafka,githubactions,vercel,supabase&perline=12" alt="Python, R, PostgreSQL, JavaScript, TypeScript, HTML, FastAPI, Docker, Kafka, GitHub Actions, Vercel, Supabase">
+</p>
 
 | Layer | Tools & Methods |
 | ----- | ----- |
@@ -118,3 +136,5 @@ Notes:
 ======================================================================
 
 ```
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:36bcf7,50:203a43,100:0f2027&height=110&section=footer" width="100%" alt="">
