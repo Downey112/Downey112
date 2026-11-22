@@ -1,29 +1,15 @@
-<div align="center">
 <picture>
 <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
 <img src="assets/header-light.svg" width="100%" alt="Luqman Syahrulnizam. Statistics, Kuala Lumpur. I look for the residual: the part the headline doesn't explain. Beside the text, a scatter plot with a fitted line and one point far above it, labelled the residual.">
 </picture>
 
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=36BCF7&center=true&vCenter=true&width=760&lines=B.Sc.+Statistics+%40+UiTM+%E2%80%94+graduating+Feb+2027;Business+Analyst+intern+%40+Alto+Soft;Malaysian+open+data+%E2%86%92+decisions;16.6M+prices.+50%2C000+brackets.+155+placebo+dates.;Every+number+links+to+its+repo." alt="Typing animation: B.Sc. Statistics at UiTM, Business Analyst intern at Alto Soft, Malaysian open data to decisions.">
-</p>
-
-<p align="center">
-<a href="https://linkedin.com/in/luqmansyahrulnizam"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-<a href="https://downey112.github.io"><img src="https://img.shields.io/badge/Portfolio-Live-36BCF7?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio"></a>
-<img src="https://img.shields.io/badge/Open%20to%20work-Mar%202027-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Open to work from March 2027">
-<img src="https://komarev.com/ghpvc/?username=Downey112&style=for-the-badge&color=blueviolet&label=Profile+views" alt="Profile views">
-</p>
-</div>
+[Portfolio](https://downey112.github.io) · [LinkedIn](https://linkedin.com/in/luqmansyahrulnizam) · Open to graduate roles from March 2027
 
 In a regression, the **residual** is what's left after the model has said everything it can. That's the part I like: take a headline number, find the public data behind it, and see what the average leaves out.
 
 I'm a final-year **B.Sc. (Hons.) Statistics** student at UiTM, graduating in February 2027, and currently a Business Analyst intern at Alto Soft Sdn Bhd, where I prepare UAT and write user manuals and SOPs for a multi-module government system. Most of what's here is built on Malaysian open data—[OpenDOSM](https://open.dosm.gov.my/), the Ministry of Higher Education, MetMalaysia, and the federal Budget documents—alongside production-style pricing, survival, and streaming pipelines.
 
-> [!IMPORTANT]
-> **Open to full-time graduate Data Analyst / Data Science roles in Kuala Lumpur and the Klang Valley — available from March 2027.**
->
-> Reach me on [LinkedIn](https://linkedin.com/in/luqmansyahrulnizam) or explore interactive write-ups on my [Portfolio](https://downey112.github.io).
+**Open to full-time graduate Data Analyst / Data Science roles in Kuala Lumpur and the Klang Valley, available from March 2027.** Reach me on [LinkedIn](https://linkedin.com/in/luqmansyahrulnizam) or see the write-ups on my [portfolio](https://downey112.github.io).
 
 <table>
 <tr>
@@ -34,7 +20,7 @@ I'm a final-year **B.Sc. (Hons.) Statistics** student at UiTM, graduating in Feb
 </tr>
 </table>
 
-## 📈 One finding, drawn
+## One finding, drawn
 
 Budget 2027 announced a **RM2,500 monthly wage floor** for graduates. Half of 2024's first-degree graduates were already at or below it (`49.7%`), but that half is not spread evenly across disciplines:
 
@@ -45,7 +31,7 @@ Budget 2027 announced a **RM2,500 monthly wage floor** for graduates. Half of 20
 
 The numbers behind the chart live in [data/](data/graduates_at_or_below_rm2500.csv), and the full microsimulation is in [**fresh-grad-salary-model**](https://github.com/Downey112/fresh-grad-salary-model).
 
-## 🔥 Flagship investigations
+## Flagship investigations
 
 1. [**fresh-grad-salary-model**](https://github.com/Downey112/fresh-grad-salary-model) **— How many graduates does a RM2,500 wage floor reach, and what does it cost?**
 
@@ -63,7 +49,7 @@ The numbers behind the chart live in [data/](data/graduates_at_or_below_rm2500.c
 
    Re-examining [arXiv:2610.13588](https://arxiv.org/abs/2610.13588) on EV charging uncertainty: an honest calibrated method would pass only **~53%** of the paper's scorecard, so its recommended method wins by being wider. Three code discrepancies were identified and reported to the authors. *(Python, conformal prediction)*
 
-## 🔍 Questions I've put to the data
+## Questions I've put to the data
 
 ### Malaysian Public Data & Policy
 
@@ -103,20 +89,16 @@ The numbers behind the chart live in [data/](data/graduates_at_or_below_rm2500.c
 
 * [**wealthwatch**](https://github.com/Downey112/wealthwatch) · [**live**](https://wealthwatch-six.vercel.app) — Personal finance tracker.
 
-> [!NOTE]
-> Every empirical claim above links to its underlying repository, data pipeline, or live dashboard. Whenever synthetic or simulated variables are used alongside real datasets (such as inventory costs in [`retail-demand-rt`](https://github.com/Downey112/retail-demand-rt) or ground-truth parameters in [`Multi-Channel ROI`](https://github.com/Downey112/Multi-Channel-Retail-Demand-Forecasting-Marketing-ROI-Optimizer)), they are explicitly labelled as **simulated**.
+Every empirical claim above links to its underlying repository, data pipeline, or live dashboard. Whenever synthetic or simulated variables are used alongside real datasets (such as inventory costs in [`retail-demand-rt`](https://github.com/Downey112/retail-demand-rt) or ground-truth parameters in [`Multi-Channel ROI`](https://github.com/Downey112/Multi-Channel-Retail-Demand-Forecasting-Marketing-ROI-Optimizer)), they are explicitly labelled as **simulated**.
 
-## 🛠️ What I work in
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=python,r,postgres,js,ts,html,fastapi,docker,kafka,githubactions,vercel,supabase&perline=12" alt="Python, R, PostgreSQL, JavaScript, TypeScript, HTML, FastAPI, Docker, Kafka, GitHub Actions, Vercel, Supabase">
-</p>
+## What I work in
 
 | Layer | Tools & Methods |
 | ----- | ----- |
 | **Statistical Methods** | Multiple linear & fixed-effects regression, survival analysis (`lifelines`), conformal prediction, Monte Carlo simulation, hypothesis testing, regression diagnostics, anomaly detection |
 | **Analysis & Data** | Python (`pandas`, `statsmodels`, `scikit-learn`, `NumPy`), R, SQL (PostgreSQL, T-SQL, DuckDB), PySpark, Kafka, SAS, SPSS |
 | **Reporting & Apps** | Power BI (DAX, star schemas), Excel, Streamlit, Tableau, Looker Studio |
+| **Build & Deploy** | FastAPI, Docker, GitHub Actions, Vercel, Supabase, JavaScript, TypeScript, HTML |
 
 <img src="assets/metrics.svg" width="480" alt="Languages used across my repositories, mostly Python, and a 3D calendar of my GitHub contributions over the last six months, refreshed daily.">
 
@@ -136,5 +118,3 @@ Notes:
 ======================================================================
 
 ```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:36bcf7,50:203a43,100:0f2027&height=110&section=footer" width="100%" alt="">
