@@ -3,13 +3,13 @@
 <img src="assets/header-light.svg" width="100%" alt="Luqman Syahrulnizam. Statistics, Kuala Lumpur. I look for the residual: the part the headline doesn't explain. Beside the text, a scatter plot with a fitted line and one point far above it, labelled the residual.">
 </picture>
 
-[Portfolio](https://downey112.github.io) · [LinkedIn](https://linkedin.com/in/luqmansyahrulnizam) · Open to graduate roles from March 2027
+[Portfolio](https://downey112.github.io) · [LinkedIn](https://linkedin.com/in/luqmansyahrulnizam) · Open to graduate AI Engineer roles from March 2027
 
 In a regression, the **residual** is what's left after the model has said everything it can. That's the part I like: take a headline number, find the public data behind it, and see what the average leaves out.
 
-I'm a final-year **B.Sc. (Hons.) Statistics** student at UiTM, graduating in February 2027, and currently a Business Analyst intern at Alto Soft Sdn Bhd, where I prepare UAT and write user manuals and SOPs for a multi-module government system. Most of what's here is built on Malaysian open data—[OpenDOSM](https://open.dosm.gov.my/), the Ministry of Higher Education, MetMalaysia, and the federal Budget documents—alongside production-style pricing, survival, and streaming pipelines.
+I'm a final-year **B.Sc. (Hons.) Statistics** student at UiTM, graduating in February 2027, and currently a Business Analyst intern at Alto Soft Sdn Bhd (Oct 2026 – Feb 2027). There I wrote the user requirements specification and the 235-case UAT scripts for a government system's v2, found an HTTP 500 bug during UAT, retest developer fixes against their Jira tickets, and write user manuals and SOPs. Most of what's here is built on Malaysian open data—[OpenDOSM](https://open.dosm.gov.my/), the Ministry of Higher Education, MetMalaysia, and the federal Budget documents—alongside LLM agents and RAG services with measured evals, plus production-style pricing, survival, and streaming pipelines.
 
-**Open to full-time graduate Data Analyst / Data Science roles in Kuala Lumpur and the Klang Valley, available from March 2027.** Reach me on [LinkedIn](https://linkedin.com/in/luqmansyahrulnizam) or see the write-ups on my [portfolio](https://downey112.github.io).
+**Open to full-time graduate AI Engineer roles in Kuala Lumpur and the Klang Valley, available from March 2027.** Reach me on [LinkedIn](https://linkedin.com/in/luqmansyahrulnizam) or see the write-ups on my [portfolio](https://downey112.github.io).
 
 <table>
 <tr>
@@ -19,6 +19,17 @@ I'm a final-year **B.Sc. (Hons.) Statistics** student at UiTM, graduating in Feb
 <td align="center" width="25%"><h2>155</h2>placebo dates behind every KL rail event claim</td>
 </tr>
 </table>
+
+## AI engineering
+
+| The question | What the data said | Built with |
+| ----- | ----- | ----- |
+| Can an agent read a Bursa Malaysia filing without inventing numbers? | Rules-first extraction over **11 real quarterly filings**, with an accounting-identity guardrail (assets = liabilities + equity): **8 correct, 3 safely refused for review, 0 wrong numbers reported as ok**. [**bursa-filing-agent**](https://github.com/Downey112/bursa-filing-agent) | Python, LangGraph, MCP |
+| What does the Budget actually say? | v2 answers from the official Budget 2026 and 2027 documents with page-level citations and refusal guardrails: hybrid + rerank retrieval reaches **recall@5 0.971** on 34 golden questions, against **0.794** for v1's vector-only search. [**belanjawan-bot**](https://github.com/Downey112/belanjawan-bot) · [**live**](https://belanjawan-bot-ut48esxousutb5xbp8ehqz.streamlit.app/) | Python, RAG, Streamlit, FastAPI |
+| Can RAG search find an answer inside a datasheet pin table? | Table-aware chunking keeps pin and register tables intact: the answer lands in the top 5 for **20 of 30** golden questions vs **13 of 30** for plain page text, on the same retriever. [**semicon-datasheet-rag**](https://github.com/Downey112/semicon-datasheet-rag) · [**live API**](https://semicon-datasheet-rag.onrender.com/docs) | Python, RAG, FastAPI |
+| Can a general agent hold up on a benchmark? | Hugging Face Agents Course final agent (**85%** on GAIA Level-1 questions). [**hf-agents-course-gaia**](https://github.com/Downey112/hf-agents-course-gaia) | Python, smolagents |
+| Can one worker stretch across free AI models? | MCP worker for Claude Code that routes tasks across free AI models and falls back when one hits its quota. [**free-worker**](https://github.com/Downey112/free-worker) | Python, MCP |
+| Can an AI assistant read Threads without write access? | Read-only Threads API connector for topic analysis. [**threads-mcp**](https://github.com/Downey112/threads-mcp) | Python, MCP |
 
 ## One finding, drawn
 
@@ -60,8 +71,6 @@ The numbers behind the chart live in [data/](data/graduates_at_or_below_rm2500.c
 | Which months of Malaysian trade don't fit the pattern? | **320 months** of OpenDOSM trade data, with **8 export anomaly months** and **25 sector spikes** flagged. [**dosm_trade_engine**](https://github.com/Downey112/dosm_trade_engine) | Python, pandas, Power BI |
 | How far is the market fuel price from the subsidised one this week? | Live tracker of the unsubsidised gap for RON95 and diesel, refreshed twice a week. [**budi-pulse**](https://github.com/Downey112/budi-pulse) · [**live**](https://budi-pulse.streamlit.app) | Python, PostgreSQL, Streamlit |
 | Did fares and network changes move KL rail riders? | Daily data.gov.my ridership on seven Klang Valley lines, six events, each checked against placebo dates, the level just before, and a comparison line: the 2022 free month lifted Ampang **+19%**, MRT Kajang **+30%**, and the Monorail **+34%**; LRT Shah Alam lost **4 in 10** weekday riders when its free rides ended; the Monorail gained **16%** while Kelana Jaya was shut. The My50 pass still can't be measured. [**lrt-ridership-events**](https://github.com/Downey112/lrt-ridership-events) | Python, Power BI |
-| What does the Budget actually say? | Answers drawn from the official Budget 2026 documents, with page-level citations. [**belanjawan-bot**](https://github.com/Downey112/belanjawan-bot) | Python, RAG |
-
 ### Retail, Demand & Decision Systems
 
 | The question | What the data said | Built with |
@@ -81,12 +90,6 @@ The numbers behind the chart live in [data/](data/graduates_at_or_below_rm2500.c
 
 * [**esg-multiagent-auditor**](https://github.com/Downey112/esg-multiagent-auditor) — Event-driven Scope 1–3 GHG auditing architecture.
 
-* [**free-worker**](https://github.com/Downey112/free-worker) — MCP worker for Claude Code that routes tasks across free AI models and falls back when one hits its quota.
-
-* [**threads-mcp**](https://github.com/Downey112/threads-mcp) — Read-only Threads API connector for topic analysis.
-
-* [**hf-agents-course-gaia**](https://github.com/Downey112/hf-agents-course-gaia) — Hugging Face Agents Course final agent (**85%** on GAIA Level-1 questions).
-
 * [**wealthwatch**](https://github.com/Downey112/wealthwatch) · [**live**](https://wealthwatch-six.vercel.app) — Personal finance tracker.
 
 Every empirical claim above links to its underlying repository, data pipeline, or live dashboard. Whenever synthetic or simulated variables are used alongside real datasets (such as inventory costs in [`retail-demand-rt`](https://github.com/Downey112/retail-demand-rt) or ground-truth parameters in [`Multi-Channel ROI`](https://github.com/Downey112/Multi-Channel-Retail-Demand-Forecasting-Marketing-ROI-Optimizer)), they are explicitly labelled as **simulated**.
@@ -95,6 +98,7 @@ Every empirical claim above links to its underlying repository, data pipeline, o
 
 | Layer | Tools & Methods |
 | ----- | ----- |
+| **AI & LLM** | LLM agents (LangGraph, smolagents), MCP servers, RAG with hybrid BM25 + vector retrieval and reranking, pgvector, retrieval evals (recall@k) in CI |
 | **Statistical Methods** | Multiple linear & fixed-effects regression, survival analysis (`lifelines`), conformal prediction, Monte Carlo simulation, hypothesis testing, regression diagnostics, anomaly detection |
 | **Analysis & Data** | Python (`pandas`, `statsmodels`, `scikit-learn`, `NumPy`), R, SQL (PostgreSQL, T-SQL, DuckDB), PySpark, Kafka, SAS, SPSS |
 | **Reporting & Apps** | Power BI (DAX, star schemas), Excel, Streamlit, Tableau, Looker Studio |
@@ -108,7 +112,7 @@ Every empirical claim above links to its underlying repository, data pipeline, o
 Dep. variable:   answers you can check
 Method:          least squares
 Sample:          Oct 2023 - Feb 2027, B.Sc. (Hons.) Statistics, UiTM
-Current:         Business Analyst intern, Alto Soft Sdn Bhd (Oct 2026 -)
+Current:         Business Analyst intern, Alto Soft Sdn Bhd (Oct 2026 - Feb 2027)
 ----------------------------------------------------------------------
 Notes:
 [1] Every number comes from a linked repository or from GitHub.
